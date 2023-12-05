@@ -1,0 +1,56 @@
+.failed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    gap: 48px;
+}
+
+.failed .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.failed img {
+    width: 50%;
+}
+
+.failed .back-btn button {
+    padding: 18px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .failed h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .failed h1 {
+        font-size: 1.2rem;
+    }
+
+    .failed img {
+        width: 30%;
+    }
+
+    .failed .back-btn button {
+        padding: 18px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        cursor: pointer;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+}
